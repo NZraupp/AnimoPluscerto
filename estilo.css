@@ -1,50 +1,60 @@
 :root{
-    --branco-principal: #ffffff;
-    --cinza-secundario: #c0c0c0;
-    --botao-azul: #167bf7;
-    --fonte-principal: 'Inter'; 
-    --bg-color: #000216;
-    }
-    body{
-        background-color: var(--bg-color);
-        color: var(--branco-principal);
-        font-family: var(--fonte-principal);
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .container{
+--branco-principal: #ffffff;
+--cinza-secundario: #c0c0c0;
+--botao-azul: #167bf7;
+--fonte-principal: 'Inter'; 
+}
+body{
+    background-color: #08080A;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 10em;
+    font-size: 28px;
+}
+*{
+   margin: 0;
+   padding: 0; 
+}
 
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        font-size: 28px;
-        margin: 5%;
-    }
-    .grade{
-        width: 100%;
-        margin: 0%;
-    }
+.principal-imagem{
+    width: 45%;
+    
+}
+.texto-1-titulo{
+    font-weight: 700;
 
-    *{
-       margin: 0;
-       padding: 0; 
-    }
-    
-    .principal-imagem{
-        width: 60%;
-        justify-content: baseline;
-        
-    }
-    .texto-1-titulo{
-        font-weight: 700;
-    
-    }
-    .container--botao{
-        background-color: purple;
-        padding: 1em;
-        border-radius: 5px;
-        color: var(--branco-principal);
-        display: block;
-        text-decoration: none;
-        margin-bottom: 1em;
-    }
+}
+.container--botao{
+    width: fit-content;
+    height: 9px;
+    background-color: var(--botao-azul);
+    padding: 1em;
+    border-radius: 2px;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.texto-2-imagem{
+    display: flex;
+    justify-content: left;
+    margin-left: -300px;
+}
+.texto2{
+    display: flex;
+    justify-content: end;
+   
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+}
