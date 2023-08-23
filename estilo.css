@@ -11,6 +11,7 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+
 .container{
     height: 100vh;
     display: grid;
@@ -44,13 +45,10 @@ body{
 }
 
 .texto-2-imagem{
-    display: flex;
-    justify-content: left;
-    margin-left: -300px;
+    width: 100%;
+
 }
 .texto2{
-    display: flex;
-    justify-content: end;
    
 }
 
